@@ -1,0 +1,19 @@
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    background-color: #d1d1d1;
+    height: 60px;
+}
+.header nav a{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 10px 25px;
+    transition: all linear .4s;
+    border-radius: 3px;
+}
+.header nav a:hover{
+    background-color: #eee;
+    color: fuchsia;
+}
